@@ -1,2 +1,2 @@
 # reset
-A CSS reset fr my projects
+A CSS reset for my projects
