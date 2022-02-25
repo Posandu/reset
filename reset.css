@@ -1,43 +1,50 @@
 
-body {
-  margin: 0;
-  padding: 0;
-}
-.container {
-  max-width: 800px;
-  margin: auto;
+html {
   font-family: sans-serif;
+  max-width: 600px;
+  margin: auto;
 }
-input , textarea {
-  border: 1px solid #d6d6d6;
-  width: 100%;
-  padding: 11px;
-  font-size: 16px;
-  border-radius: 5px;
-  transition: all 0.2s ease;
-}
-input:hover ,textarea:hover {
-  background: #f1f1f1;
-}
-button {
+hr {
   border: none;
-  padding: 8px 12px;
-  margin: 2px;
+  border-top: 1px solid #e1e1e1;
+}
+a {
+  color: #1552e3;
+  background: white;
+}
+a:hover {
+  background: #1552e31f;
+}
+a:visited {
+  color: indigo;
+}
+pre {
+  font-size: 17px;
+  border: 1px solid #dedede;
+  padding: 15px;
   border-radius: 4px;
-  background: #f2f2f2;
-  transition: all 0.2s ease;
-  cursor: pointer;
+}
+kbd {
+  box-shadow: 1px 1px 2px #7e7e7e,-1px -1px 2px lightgray;
+  border-radius: 5px;
+  padding: 3px 4px;
+  background: #393939;
+  color: white;
   font-family: inherit;
 }
-button:hover {
-  background: #dadada;
+input ,textarea,select,button{
+  padding: 10px;
+  width: max-content;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
 }
-button:focus {
-  box-shadow: 0px 0px 5px #0070ff;
+input:hover,button:hover,textarea:hover,select:hover {
+  background: #fcfcfc;
 }
-[disabled] {
-  opacity: 0.6;
-  border: ;
-  outline: 1px solid #bababa;
-  cursor: no-drop;
+button {
+  background: #e9e9ed;
+  border-radius: 4px;
+  color: black;
+  border: 1px solid #e9e9ed;
+  padding: 11px 14px;
 }
