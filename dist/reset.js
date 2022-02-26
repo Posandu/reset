@@ -1,0 +1,1 @@
+const $=(...e)=>1===document.querySelectorAll(...e).length?document.querySelector(...e):document.querySelectorAll(...e),log=(...e)=>console.log(...e);

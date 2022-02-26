@@ -1,0 +1,27 @@
+{
+  "name": "prog",
+  "version": "1.0.0",
+  "description": "A CSS reset for my projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_css": "node-sass reset.scss dist/reset.css --output-style compressed",
+    "build_js": "terser reset.src.js --compress --mangle --output dist/reset.js",
+    "build": "npm run build_css && npm run build_js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Posandu/reset.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Posandu/reset/issues"
+  },
+  "homepage": "https://github.com/Posandu/reset#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "terser": "^5.11.0"
+  }
+}
